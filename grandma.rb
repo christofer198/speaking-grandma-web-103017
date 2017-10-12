@@ -1,10 +1,10 @@
 # Write a speak_to_grandma method.
-require pry
+
 def speak_to_grandma(speech)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-  binding.pry
+
   if speech == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   elsif speech == speech.upcase
